@@ -10,7 +10,7 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 	int right=0;
 	int wrong=0;
 	String test;
-	int test2;
+	
 	
 	
 	
@@ -67,10 +67,14 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.out.println("Incorrect - 2 points");
 		wrong ++;
 		}
-	String q4=("How many days are there in a year?");
+	String q4=("How many days are in a week?");
 	System.out.print(q4);
-	test2 = input.nextInt();
-	if (test2==365) {
+	test = input.nextLine();
+	if (test.equalsIgnoreCase("stop")) {
+		System.out.println("Thank you for taking Bianca's Coding Quiz !");
+		System.exit(0);
+	}
+	else if (test.equalsIgnoreCase("seven")) {
 		System.out.println("Correct! + 5 points");
 		right ++;
 		}
@@ -80,8 +84,12 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		}
 	String q5=("How many continents are there?");
 	System.out.print(q5);
-	test2 = input.nextInt();
-	if (test2==7) {
+	test = input.nextLine();
+	if (test.equalsIgnoreCase("stop")) {
+		System.out.println("Thank you for taking Bianca's Coding Quiz !");
+		System.exit(0);
+	}
+	else if (test.equalsIgnoreCase("seven")) {
 		System.out.println("Correct! + 5 points");
 		right ++;
 	}
