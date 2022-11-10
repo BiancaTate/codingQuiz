@@ -26,11 +26,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.out.println("Thank you for taking Bianca's Coding Quiz !");
 		System.exit(0);
 	} else if (test.equalsIgnoreCase("blue")) {
-		System.out.println("Correct! + 5 points");
+		System.out.println("Correct! (+ 5 points)");
 		right ++;
 	}
 		else {
-		System.out.println("Incorrect - 2 points");
+		System.out.println("Incorrect (- 2 points)");
 		wrong ++;
 	}
 	
@@ -42,11 +42,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 	else  if (test.equalsIgnoreCase("a")) {
-		System.out.println("Correct! + 5 points");
+		System.out.println("Correct! (+ 5 points)");
 		right ++;
 	}
 	else {
-		System.out.println("Incorrect - 2 points");
+		System.out.println("Incorrect (- 2 points)");
 		wrong ++;
 	}
 
@@ -60,11 +60,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 	else if (test.equalsIgnoreCase("z")) {
-		System.out.println("Correct! + 5 points");
+		System.out.println("Correct! (+ 5 points)");
 		right ++;
 		}
 	else {
-		System.out.println("Incorrect - 2 points");
+		System.out.println("Incorrect (- 2 points)");
 		wrong ++;
 		}
 	String q4=("How many days are in a week?");
@@ -75,11 +75,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 	else if (test.equalsIgnoreCase("seven")) {
-		System.out.println("Correct! + 5 points");
+		System.out.println("Correct! (+ 5 points)");
 		right ++;
 		}
 	else {
-		System.out.println("Incorrect - 2 points");
+		System.out.println("Incorrect (- 2 points)");
 		wrong ++;
 		}
 	String q5=("How many continents are there?");
@@ -90,11 +90,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 	else if (test.equalsIgnoreCase("seven")) {
-		System.out.println("Correct! + 5 points");
+		System.out.println("Correct! (+ 5 points)");
 		right ++;
 	}
 	else {
-		System.out.println("Incorrect - 2 points");
+		System.out.println("Incorrect (- 2 points)");
 		wrong ++;
 		}
 	String q6=("What is the name of the tallest mountain on Earth?");
@@ -106,11 +106,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 		else if (test.equalsIgnoreCase("Mount Everest")) {
-			System.out.println("Correct! + 5 points");
+			System.out.println("Correct! (+ 5 points)");
 			right ++;
 	}
 		else {
-			System.out.println("Incorrect - 2 points");
+			System.out.println("Incorrect (- 2 points)");
 			wrong ++;
 	}
 	String q7=("Which animal lays the largest eggs?");
@@ -121,11 +121,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 		else if (test.equalsIgnoreCase("Ostrich")) {
-			System.out.println("Correct! + 5 points");
+			System.out.println("Correct! (+ 5 points)");
 			right ++;
 	}
 		else {
-			System.out.println("Incorrect - 2 points");
+			System.out.println("Incorrect (- 2 points)");
 			wrong ++;
 	}
 	String q8=("What is the name of a shape with 5 sides?");
@@ -135,11 +135,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.out.println("Thank you for taking Bianca's Coding Quiz !");
 		System.exit(0);}
 		else if (test.equalsIgnoreCase("Pentagon")) {
-			System.out.println("Correct! + 5 points");
+			System.out.println("Correct! (+ 5 points)");
 			right ++;
 	}
 		else {
-			System.out.println("Incorrect - 2 points");
+			System.out.println("Incorrect (- 2 points)");
 			wrong ++;
 	}
 	String q9=("In which country can you find the Eiffel Tower?");
@@ -150,11 +150,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 	else if (test.equalsIgnoreCase("France")) {
-			System.out.println("Correct! + 5 points");
+			System.out.println("Correct! (+ 5 points)");
 			right ++;
 	}
 		else {
-			System.out.println("Incorrect - 2 points");
+			System.out.println("Incorrect (- 2 points)");
 			wrong ++;
 	}
 	String q10=("What is the orange part of an egg called?");
@@ -165,11 +165,11 @@ public class Quiz {   /// class to hold questions and answers and ask user if th
 		System.exit(0);
 	}
 		if (test.equalsIgnoreCase("Yolk")) {
-			System.out.println("Correct! + 5 points");
+			System.out.println("Correct! (+ 5 points)");
 			right ++;
 	}
 		else {
-			System.out.println("Incorrect - 2 points");
+			System.out.println("Incorrect (- 2 points)");
 			wrong ++;
 	}
 	
